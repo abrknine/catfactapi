@@ -1,0 +1,36 @@
+
+
+.container h4{
+  text-align: center;
+}
+.container{
+  color: aliceblue;
+ padding: 2rem;
+ border: 3px solid  black;
+ background: rgb(53, 52, 52);
+ border-radius: 14px
+ /* width: 200px; */
+}
+.container:hover{
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.head{
+  text-align: center;
+}
+.box{
+  padding: 0px 40px;
+  max-width: 120rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 23px;
+}
+.but{
+  text-align: center;
+   /* border :5px solid aqua; */
+  /* backgroundColor: yellow; */
+  color: aliceblue;
+  background-color:  black;
+  
+  margin: 23px 700px;
+}
