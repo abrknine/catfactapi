@@ -25,7 +25,7 @@ function App() {
    useEffect(()=>{
     getapiData();
    },[])
-   // this function again calling api
+   // this function again calling api really it does
    const handleRefresh = () => {
     console.log('Button clicked!');
     setError("");
